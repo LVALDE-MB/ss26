@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mercedes Page</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: url('https://upload.wikimedia.org/wikipedia/commons/9/90/Mercedes-Logo.svg') no-repeat center center fixed;
+      background-size: 200px;
+      background-color: #f4f4f4;
+      text-align: center;
+    }
+    .overlay {
+      background: rgba(255,255,255,0.9);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    h1 {
+      color: #003366;
+      margin-bottom: 20px;
+    }
+    .btn {
+      background-color: #007bff;
+      border: none;
+      color: white;
+      padding: 15px 30px;
+      margin: 10px;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h1>Bienvenido a Mercedes-Benz</h1>
+    <button class="btn">Catálogo</button>
+    <button class="btn">Eventos</button>
+    <button class="btn">Contacto</button>
+  </div>
+</body>
+</html>
